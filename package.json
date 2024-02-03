@@ -1,0 +1,33 @@
+{
+  "name": "dataalchemy",
+  "description": "Effortlessly Convert Base64-Encoded CSV or XLSX Files to JSON",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "Data transformation",
+    "Data manipulation",
+    "CSV to JSON",
+    "XLSX to JSON",
+    "Data conversion",
+    "Base64 decoding",
+    "Data processing",
+    "Data parsing",
+    "Data encoding",
+    "Data utilities"
+  ],
+  "author": "narendrababu",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
