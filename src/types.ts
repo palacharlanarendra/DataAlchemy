@@ -1,4 +1,4 @@
 export type Base64ToJSONProps = {
-  base64CsvData: string;
+  base64Data: string;
   type: string;
 };

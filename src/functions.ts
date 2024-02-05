@@ -6,10 +6,10 @@ export interface Row {
 }
 
 export function base64ToJSON({
-  base64CsvData,
+  base64Data,
   type,
 }: Base64ToJSONProps): Row[] {
-  const base64String = base64CsvData;
+  const base64String = base64Data;
   const decodedData = Buffer.from(base64String, "base64");
 
   switch (type) {
